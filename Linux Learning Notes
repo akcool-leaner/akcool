@@ -1,0 +1,11 @@
+1、help  ---查看内部命令  which   ---查看外部命令
+2、cat /etc/inittab  ---查看运行级别配置文件
+  systemctl get-default   ---查看默认运行级别
+  systemctl set-default target.target   ---设置默认运行级别
+
+3、挂载    mount -参数 挂载设备 挂载点
+   卸载   unmount -参数 挂载设备 挂载点
+
+4、yum list | grep 软件包   ---查看可用软件包
+5、mtr   ---linux网络诊断工具
+6、mv    ---移动文件命令   mv  源文件/目录  目的文件/目录
